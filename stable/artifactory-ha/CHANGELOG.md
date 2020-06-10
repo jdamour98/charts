@@ -1,6 +1,9 @@
 # JFrog Artifactory-ha Chart Changelog
 All changes to this chart will be documented in this file.
 
+## [2.5.4] - Jun 11, 2020
+* Support list of custom secrets
+
 ## [2.5.3] - Jun 8, 2020
 * Statically setting primary service type to ClusterIP.
 * Prevents primary service from being exposed publicly when using LoadBalancer type on cloud providers.
